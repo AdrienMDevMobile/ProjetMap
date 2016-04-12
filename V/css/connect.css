@@ -1,0 +1,53 @@
+/*css de connect*/
+
+* {border:0; margin:0; outline:0; padding:0}
+
+/*bouton de connexion*/
+#cnx {
+	width:14em; height:2em;
+	color : white;
+	background-color : #248;
+}	
+
+#user {
+	width:14em;
+	border:1px green solid;
+	background-color:white;
+	margin:5px;
+}
+
+/*formulaire de connexion*/
+#f1{
+	display:none;
+	width:14em;
+	border:1px green solid;
+	background-color:white;
+	margin:5px;
+}
+
+h5{
+border:1px green solid;
+	background-color:white;
+	}
+
+#f2{
+	width:14em;
+	border:1px green solid;
+	background-color:white;
+}
+
+label{
+	display:inline-block;
+	width:3em; 
+	margin:5px;
+}
+input {
+	border:1px grey solid;
+	margin:5px;
+}
+input[type='submit']{
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+}
